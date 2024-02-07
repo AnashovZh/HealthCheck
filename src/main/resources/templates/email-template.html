@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HealthCheck</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600"
+            rel="stylesheet"
+    />
+    <style>
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            line-height: 100%;
+        }
+        [style*="Raleway"] {
+            font-family: "Raleway", arial, sans-serif !important;
+        }
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+        table td {
+            border-collapse: collapse;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .menu a {
+            color: #6C6C6C;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.28px;
+            text-decoration: none;
+        }
+        .menu td {
+            padding-left: 30px;
+        }
+        .header-td {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .features-td {
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+        .features-td p {
+            color: #0079B2;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+        }
+        .blockqoute-td {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .block-td p {
+            color: #0079B2;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.28px;
+        }
+        .block-table td {
+            padding-top: 40px;
+        }
+        .author {
+            padding-top: 20px;
+        }
+        .author h3 {
+            margin-top: 20px;
+            color: #686868;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.56px;
+            margin-bottom: 5px;
+        }
+        .author p {
+            color: #0079B2;
+            font-size: 13px;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 0.52px;
+            margin: 0;
+        }
+        .footer-menu-td {
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+        .footer-menu-td a {
+            color: #BCC9DD;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.36px;
+            text-decoration: none;
+        }
+        .copyright-td {
+            color: #BCC9DD;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.31px;
+        }
+        .copyright-td a {
+            font-weight: 600;
+            text-decoration: none;
+            color: #BCC9DD;
+        }
+        .code {
+            font-weight: 600;
+            font-size: 2rem;
+            color: #0079B2;
+        }
+        .welcome-text {
+            font-style: italic;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.28px;
+            width: 30rem;
+            text-align: center;
+            display: inline;
+        }
+        .weight-text {
+            font-style: italic;
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.28px;
+            width: 30rem;
+            text-align: center;
+            display: inline;
+        }
+
+        .table-700 tbody {
+            display: flex;
+            justify-content: space-between;
+            gap: 4rem;
+        }
+        .table {
+            height: 100vh;
+        }
+        .social {
+            display: table;
+        }
+        .social a {
+            display: table-cell;
+        }
+        @media (max-width: 870px) {
+            .table-850 {
+                width: 600px !important;
+            }
+            .table-600 {
+                width: 550px !important;
+            }
+            .block-table {
+                width: 200px !important;
+            }
+            .block-table p br {
+                display: none !important;
+            }
+            .features-td td {
+                display: block !important;
+                margin-bottom: 50px !important;
+            }
+        }
+        @media (max-width: 620px) {
+            .table-850 {
+                width: 400px !important;
+            }
+            .table-600 {
+                width: 320px !important;
+            }
+            .block-td {
+                display: block !important;
+                margin-bottom: 50px !important;
+                padding: 0 !important;
+            }
+            .blockqoute-td tr {
+                display: block !important;
+            }
+            .block-table {
+                width: 320px !important;
+                display: block !important;
+                margin: 0 auto !important;
+            }
+            .author {
+                width: 200px !important;
+            }
+            .logo {
+                display: block !important;
+                margin: 0 auto !important;
+                text-align: center !important;
+                width: 200px !important;
+                margin-bottom: 20px !important;
+            }
+            .logo img {
+                margin: 0 auto !important;
+            }
+            .menu {
+                display: block !important;
+                margin: 0 auto !important;
+            }
+        }
+        @media (max-width: 420px) {
+            .table-850 {
+                width: 300px !important;
+            }
+            .table-600 {
+                width: 260px !important;
+            }
+            .block-table {
+                width: 260px !important;
+            }
+            .author {
+                width: 130px !important;
+            }
+            .blockqoute-td {
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+            }
+            .footer-menu-td table {
+                width: 260px !important;
+            }
+            .menu td {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0">
+<div
+        style="
+        font-size: 0px;
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        display: none;
+      "
+>
+    Тестовое письмо
+</div>
+<table
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        bgcolor="#1DBC9E"
+        class="table"
+>
+    <tr>
+        <td>
+            <table
+                    class="main table-850"
+                    cellpadding="0"
+                    cellspacing="0"
+                    width="850"
+                    align="center"
+            >
+                <tr>
+                    <td height="30" width="850"></td>
+                </tr>
+                <tr>
+                    <td class="banner-td">
+                        <a href="#">
+                            <img
+                                    src="https://healthcheck-10.s3.eu-central-1.amazonaws.com/1702296147173photo_5442934801100297321_y.jpg"
+                                    alt="banner"
+                            />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="blockqoute-td" bgcolor="#FFFFFF">
+                        <table
+                                class="table-600"
+                                cellpadding="0"
+                                cellspacing="0"
+                                width="600"
+                                align="center"
+                                border="0"
+                        >
+                            <tr>
+                                <td
+                                        class="block-td"
+                                        align="center"
+                                        style="padding-right: 20px; padding-bottom: 20px;"
+                                >
+                                    <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            class="block-table"
+                                            align="center"
+                                            width="100%"
+                                    >
+                                        <h4 class="welcome-text" style="display: block; font-family: Arial, Helvetica, sans-serif; display: inline;" th:text="${title} + '.'"></h4>
+                                        <span class="welcome-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" th:text="'Вы записаны на прием к доктору ' + ${doctor} + ' в отделении '+${department}+' на'"></span>
+                                        <span class="weight-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" align="center" th:text="${date} + ' с ' + ${timeFrom} + ' до ' + ${timeTo}"></span>
+                                        <span class="welcome-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" align="center" th:text="'. Если у вас возникнут вопросы, будем рады помочь. Свяжитесь с нами по телефону'"></span>
+                                        <span class="welcome-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" align="center">
+    <a href="tel:+996 (777) 112 233" th:text="'+996777112233'"></a>
+</span>
+                                        <span class="welcome-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" align="center" th:text="'или по электронной почте'"></span>
+                                        <h4 class="welcome-text" style="display: block; font-family: Arial, Helvetica, sans-serif; display: inline;" align="center">
+    <a href="mailto:healthcheck05@gmail.com" th:text="${emailAdmin} + '.'">healthcheck05@gmail.com.</a>
+</h4>
+                                        <br/>
+                                        <span class="welcome-text" style="font-family: Arial, Helvetica, sans-serif; display: inline;" align="center" th:text="'С уважением, Healthcheck'"></span>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="footer-td" bgcolor="#38404B">
+                        <table
+                                class="table-700"
+                                cellpadding="0"
+                                cellspacing="0"
+                                width="600"
+                                align="center"
+                        >
+                            <tr>
+                                <td class="footer-logo" align="center">
+                                    <a href="#">
+                                        <img
+                                                src="https://healthcheck-10.s3.eu-central-1.amazonaws.com/1702301283689Снимок экрана 2023-12-11 192733.png"
+                                                alt="footer-logo"
+                                        />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="30" width="850"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

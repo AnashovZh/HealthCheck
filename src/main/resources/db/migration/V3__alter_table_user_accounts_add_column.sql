@@ -1,0 +1,1 @@
+alter table user_accounts add column sms_code varchar;
